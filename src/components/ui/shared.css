@@ -1,0 +1,112 @@
+
+.card {  
+   
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    width:30rem;
+    margin: 10px auto;
+    white-space: nowrap;
+    background-color: white;
+  }
+  
+  .card h3{
+    display: inline-block;
+    padding:  auto;
+    margin:auto;
+  }
+  
+  .expandMore  {
+    display: block;
+    float: right;
+    width:20px;
+    height:20px;
+    background-image: url("/src/img/expandMore.png");
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .expandLess  {
+    display: block;
+    float: right;
+    width:20px;
+    height:20px;
+    background-image: url("/src/img/expandLess.png");
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .expandedCard {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+  }
+   
+.expandedCard h3 {
+  color: black;
+}
+
+  .list {
+      list-style-type: none;
+  }
+
+  .expandedCard button {
+    float:right;
+    background-color: #e63f07;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .itemDetails p {
+    display: inline-block;
+  }
+  .headerTimesheet {
+    margin: 1rem auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    width: 70rem;
+    position:relative;
+    
+  }
+
+  .headerTimesheet div {
+    padding:auto;
+    display: inline-block;
+  }
+
+  .nextMonth {
+    float: right;
+    cursor: pointer;
+    padding-right: 5px;
+  }
+
+  .currentDate {
+    margin:auto;
+    position: absolute;
+    left: 50%;
+    right:30%;
+  }
+
+  .previousMonth {
+    cursor: pointer;
+    padding-left:5px;
+  }
+
+  .filter {
+    margin:auto;
+    width: 70rem;
+    cursor: pointer;
+    text-align: right;
+  }
+
+  .newItem {
+    margin-left: 25rem;
+    margin-top: 2px;
+    width: 20rem;
+  }
+
+  .container {
+    position:relative;
+  }

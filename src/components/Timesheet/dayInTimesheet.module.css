@@ -1,0 +1,13 @@
+.container {
+    width:70rem;
+    margin:auto;
+    padding:auto;
+}
+
+.container table {
+    margin:  auto;
+    border-radius: 5px;
+    width: 70rem;
+    align-items: center;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  }
