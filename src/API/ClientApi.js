@@ -1,4 +1,3 @@
-const url = 'http://localhost:64680/api/client/';
 function ClientApi (){
   
     
