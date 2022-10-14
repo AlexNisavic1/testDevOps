@@ -35,7 +35,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.SSH_PORT }}
           script: |
-            cd /d d:\testDevOps
+            cd Sites/TestDevOps
             git fetch origin master
             git reset --hard FETCH_HEAD
             git clean -d -f --exclude secrets
