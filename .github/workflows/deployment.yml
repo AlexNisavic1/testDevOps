@@ -38,6 +38,4 @@ jobs:
           script: |
             cd Sites/TestDevOps
             git fetch origin master
-            git reset --hard FETCH_HEAD
-            git clean -d -f --exclude secrets
             chown $(whoami) . # PM2 doesn't recognize root user from Github Actions
