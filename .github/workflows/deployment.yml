@@ -36,6 +36,6 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           passphrase: ${{ secrets.SSH_PASSPHRASE }}
           script: |
-            cd Sites/TestDevOps
+            cd c:\sites\testdevops
             git fetch origin master
             chown $(whoami) . # PM2 doesn't recognize root user from Github Actions
