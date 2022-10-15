@@ -37,4 +37,7 @@ jobs:
           script: |
             cd c:\sites\testdevops
             git fetch origin master
-            chown $(whoami) . # PM2 doesn't recognize root user from Github Actions
+            git pull origin master
+            npm install
+            npm install react-scripts
+            npm run build
