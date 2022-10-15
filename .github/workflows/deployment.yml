@@ -36,13 +36,8 @@ jobs:
           script: |
             cd c:\sites\testdevops
             echo moved to directory testDevOps
-            git fetch main
-            echo fetching main
             git pull main
             echo git pull
-            npm install
-            echo npm install done
-            npm install react-scripts
-            echo npm install react scripts done
-            CI=false npm run build
+            npm ci
+            npm run build
             echo npm run build done 
