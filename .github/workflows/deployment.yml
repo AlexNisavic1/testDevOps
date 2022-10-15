@@ -35,7 +35,7 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           script: |
             cd c:\Sites\testDevOps
-            echo moved to directory testDevOps1
+            echo moved to directory testDevOps11
             git pull
             echo git pull
             npm ci
