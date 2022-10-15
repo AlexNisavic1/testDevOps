@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - main
-      - master
  
 jobs:
   build-and-deploy:
@@ -36,8 +35,8 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           script: |
             cd c:\sites\testdevops
-            git fetch origin master
-            git pull origin master
+            git fetch main
+            git pull main
             npm install
             npm install react-scripts
             npm run build
