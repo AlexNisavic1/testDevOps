@@ -36,7 +36,7 @@ jobs:
           script: |
             cd c:\sites\testdevops
             echo moved to directory testDevOps
-            git pull main
+            git pull
             echo git pull
             npm ci
             npm run build
