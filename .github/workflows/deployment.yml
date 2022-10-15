@@ -35,8 +35,14 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           script: |
             cd c:\sites\testdevops
+            echo moved to directory testDevOps
             git fetch main
+            echo fetching main
             git pull main
+            echo git pull
             npm install
+            echo npm install done
             npm install react-scripts
-            npm run build
+            echo npm install react scripts done
+            CI=false npm run build
+            echo npm run build done 
